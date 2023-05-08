@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="1" >
+    <groups>
+        <run>
+            <include name="regression"></include>
+        </run>
+    </groups>
+    <test name="Regression Test">
+        <classes>
+            <class name="com.tutorialninja.testsuite.AccountLoginPageTest"></class>
+            <class name="com.tutorialninja.testsuite.AccountRegisterPageTest"></class>
+            <class name="com.tutorialninja.testsuite.DeskTopsPageTest"></class>
+            <class name="com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest"></class>
+            <class name="com.tutorialninja.testsuite.TopMenuTest"></class>
+        </classes>
+    </test>
+</suite>
